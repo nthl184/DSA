@@ -1,7 +1,7 @@
 /*
 MSSV: 22520772
 Full name: Nguyen Thi Huyen Linh
-Homework Exercise - Problem 1 - Music player
+Homework - Exercise 1 - Music player
 */
 #include <iostream>
 #include <string>
