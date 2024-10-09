@@ -99,7 +99,7 @@ class MusicPlayer //create a music player
 };
 int main()
 {
-    freopen("exer.inp","r",stdin);
+    //freopen("exer.inp","r",stdin);
     MusicPlayer p;
     song *crt = nullptr;
     int n;
