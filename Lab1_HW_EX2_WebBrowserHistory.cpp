@@ -1,14 +1,14 @@
 /*
 MSSV: 22520772
 Full name: Nguyen Thi Huyen Linh
-Homework - Exercise 2 - Web Browser back and next
+Lab 1 - Homework - Exercise 2 - Web Browser back and next
 */
 #include <iostream>
 #include <string>
 #include <vector>
 using namespace std;
 
-class link //create node of a song
+class link //create node of a link
 {public:
     string url;
     link *next;
@@ -20,7 +20,7 @@ class link //create node of a song
         prev = nullptr;
     }
 };
-class BrowserHistory //create a music player
+class BrowserHistory 
 {public:
     link *head;
     link *tail;
